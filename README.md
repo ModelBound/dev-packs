@@ -27,20 +27,42 @@ The packs in this repo are mirrored to the [**ModelBound Marketplace**](https://
 
 ## 📦 Available Dev Packs
 
+Packs are organized by category. Each folder contains its own `README.md` describing what it does, what files it ships, and how to apply it.
+
+### 🖼 Frameworks
 | Pack | Use Case | Best For |
 |------|----------|----------|
-| `perfect-react-refactor/` | Modern React refactoring, hooks, RSC | React / Next.js teams |
-| `senior-code-review/` | Rigorous PR-style code review | Any codebase |
-| `clean-architecture-enforcer/` | Layered architecture & DDD | Backend services |
-| `python-test-writer/` | Pytest-style test generation | Python projects |
-| `api-design/` | REST/GraphQL API design review | API teams |
-| `typescript-strictness/` | Strict TS, no-`any` enforcement | TypeScript codebases |
-| `sql-migration-reviewer/` | Safe migrations, indexing, locks | Postgres / MySQL |
-| `tailwind-design-system-enforcer/` | Token-driven Tailwind | Design-system teams |
-| `nextjs-app-router-best-practices/` | Server components, caching, routing | Next.js 14+ |
-| `nodejs-backend-patterns/` | Express/Fastify, async patterns, errors | Node.js APIs |
+| `frameworks/perfect-react-refactor/` | Modern React refactoring, hooks, RSC | React / Next.js teams |
+| `frameworks/nextjs-app-router-best-practices/` | Server components, caching, routing | Next.js 14+ |
+| `frameworks/nodejs-backend-patterns/` | Express/Fastify, async patterns, errors | Node.js APIs |
 
-> Each pack folder contains its own `README.md` describing what it does, what files it ships, and how to apply it.
+### 🔤 Languages
+| Pack | Use Case | Best For |
+|------|----------|----------|
+| `languages/typescript-strictness/` | Strict TS, no-`any` enforcement | TypeScript codebases |
+| `languages/python-test-writer/` | Pytest-style test generation | Python projects |
+
+### 🏛 Architecture
+| Pack | Use Case | Best For |
+|------|----------|----------|
+| `architecture/clean-architecture-enforcer/` | Layered architecture & DDD | Backend services |
+| `architecture/api-design/` | REST/GraphQL API design review | API teams |
+
+### 🗄 Data
+| Pack | Use Case | Best For |
+|------|----------|----------|
+| `data/sql-migration-reviewer/` | Safe migrations, indexing, locks | Postgres / MySQL |
+
+### ✅ Quality
+| Pack | Use Case | Best For |
+|------|----------|----------|
+| `quality/senior-code-review/` | Rigorous PR-style code review | Any codebase |
+| `quality/tailwind-design-system-enforcer/` | Token-driven Tailwind | Design-system teams |
+
+### ⚙️ Process
+| Pack | Use Case | Best For |
+|------|----------|----------|
+| `process/production-grade-engineering-skills/` | Planning, debugging, CI/CD, and engineering workflows | Any team |
 
 ---
 
@@ -59,7 +81,7 @@ You get versioning, AI review, eval scoring, team sharing, and auto-optimization
 
 ```bash
 git clone https://github.com/modelbound/dev-packs.git
-cp -r dev-packs/perfect-react-refactor/. /path/to/your/project/
+cp -r dev-packs/frameworks/perfect-react-refactor/. /path/to/your/project/
 ```
 
 Then point your IDE at the files (see **IDE Setup** below).
@@ -203,7 +225,7 @@ We **want** community contributions. If you have a better React refactor prompt,
 ### Contribute to an existing pack
 
 1. Fork this repo
-2. Edit files inside the pack folder (e.g. `perfect-react-refactor/system-prompt.md`)
+2. Edit files inside the pack folder (e.g. `frameworks/perfect-react-refactor/system-prompt.md`)
 3. If your change is non-trivial, add or update an eval case in `evals/`
 4. Open a PR with:
    - **What** you changed
@@ -212,7 +234,7 @@ We **want** community contributions. If you have a better React refactor prompt,
 
 ### Propose a new Dev Pack
 
-1. Create a new top-level folder, kebab-case (e.g. `rust-axum-patterns/`)
+1. Create a new folder under the appropriate category, kebab-case (e.g. `frameworks/rust-axum-patterns/`)
 2. Include at minimum:
    - `README.md` — what it does, who it's for
    - `system-prompt.md` — the core prompt

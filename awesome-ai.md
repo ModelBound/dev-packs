@@ -43,21 +43,42 @@ This repository includes **10 production-grade starter packs**:
 
 | Pack | Description | Best For |
 |------|-------------|----------|
-| **[react-modern](./react-modern)** | React 18+ hooks, patterns, and performance optimization | Frontend teams |
-| **[nextjs-app-router](./nextjs-app-router)** | Next.js 14+ App Router, Server Components, caching | Full-stack Next.js |
-| **[typescript-advanced](./typescript-advanced)** | Advanced types, generics, strict mode patterns | Type-heavy codebases |
-| **[nodejs-backend-patterns](./nodejs-backend-patterns)** | Express/Fastify patterns, middleware, error handling | API development |
-| **[python-data-eng](./python-data-eng)** | Pandas, NumPy, data pipeline best practices | Data engineering |
+| **[perfect-react-refactor](./frameworks/perfect-react-refactor)** | React 18+ hooks, patterns, and performance optimization | Frontend teams |
+| **[nextjs-app-router-best-practices](./frameworks/nextjs-app-router-best-practices)** | Next.js 14+ App Router, Server Components, caching | Full-stack Next.js |
+| **[nodejs-backend-patterns](./frameworks/nodejs-backend-patterns)** | Express/Fastify patterns, middleware, error handling | API development |
 
-### 🛠️ Workflow & Quality
+### 🔤 Languages
 
 | Pack | Description | Best For |
 |------|-------------|----------|
-| **[refactor-expert](./refactor-expert)** | Safe refactoring, test preservation, pattern detection | Legacy code modernization |
-| **[code-review-senior](./code-review-senior)** | Security, performance, maintainability analysis | PR reviews |
-| **[test-generation](./test-generation)** | Unit, integration, and E2E test generation | TDD workflows |
-| **[docs-as-code](./docs-as-code)** | README, API docs, and inline documentation | Documentation-heavy projects |
-| **[security-first](./security-first)** | OWASP, secrets detection, secure-by-default | Security-conscious teams |
+| **[typescript-strictness](./languages/typescript-strictness)** | Advanced types, generics, strict mode patterns | Type-heavy codebases |
+| **[python-test-writer](./languages/python-test-writer)** | Pytest-style test generation and best practices | Python projects |
+
+### 🏛 Architecture & Design
+
+| Pack | Description | Best For |
+|------|-------------|----------|
+| **[clean-architecture-enforcer](./architecture/clean-architecture-enforcer)** | Layered architecture, DDD, boundary enforcement | Backend services |
+| **[api-design](./architecture/api-design)** | REST/GraphQL API design review and standards | API teams |
+
+### 🗄 Data
+
+| Pack | Description | Best For |
+|------|-------------|----------|
+| **[sql-migration-reviewer](./data/sql-migration-reviewer)** | Safe migrations, indexing, lock analysis | Postgres / MySQL |
+
+### ✅ Quality
+
+| Pack | Description | Best For |
+|------|-------------|----------|
+| **[senior-code-review](./quality/senior-code-review)** | Security, performance, maintainability analysis | PR reviews |
+| **[tailwind-design-system-enforcer](./quality/tailwind-design-system-enforcer)** | Token-driven Tailwind design system enforcement | Design-system teams |
+
+### ⚙️ Process
+
+| Pack | Description | Best For |
+|------|-------------|----------|
+| **[production-grade-engineering-skills](./process/production-grade-engineering-skills)** | Planning, debugging, CI/CD, and engineering workflows | Any team |
 
 ---
 
@@ -77,7 +98,7 @@ Changes auto-sync when packs update. Perfect for teams.
 
 ```bash
 git clone https://github.com/modelbound/dev-packs.git
-cd dev-packs/react-modern
+cd dev-packs/frameworks/perfect-react-refactor
 cp -r * ~/.cursor/rules/  # or your editor's context directory
 ```
 
