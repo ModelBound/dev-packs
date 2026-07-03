@@ -6,9 +6,9 @@
 [![Powered by ModelBound](https://img.shields.io/badge/Powered%20by-ModelBound-6366f1)](https://modelbound.co)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#-contributing)
 [![Support](https://img.shields.io/badge/Support-support%40modelbound.co-blue)](mailto:support@modelbound.co)
-[![ModelBound Skill Trust](https://modelbound.co/api/badge/skills.svg?repo=ModelBound/dev-packs)](https://modelbound.co/connect/github-actions)
-![Skill Lint](https://modelbound.co/api/badge/skills.svg?repo=ModelBound/dev-packs&metric=lint)
-![Optimize Savings](https://modelbound.co/api/badge/skills.svg?repo=ModelBound/dev-packs&metric=optimize)
+[![ModelBound Skill Trust](https://modelbound.co/api/badge/skills.svg?repo=ModelBound/dev-packs)](https://modelbound.co/connect/github-actions?repo=ModelBound/dev-packs)
+[![Skill Lint](https://modelbound.co/api/badge/skills.svg?repo=ModelBound/dev-packs&metric=lint)](https://modelbound.co/connect/github-actions?repo=ModelBound/dev-packs)
+[![Optimize Savings](https://modelbound.co/api/badge/skills.svg?repo=ModelBound/dev-packs&metric=optimize)](https://modelbound.co/connect/github-actions?repo=ModelBound/dev-packs)
 
 ---
 
